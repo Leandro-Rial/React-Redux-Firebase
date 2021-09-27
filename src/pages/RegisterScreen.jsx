@@ -142,7 +142,7 @@ import useForm from "../hooks/useForm";
                     </Grid>
                   </form>
                   <Grid item style={{ margin: '20px 0', textAlign: 'center'}}>
-                      <Link to="/login">Do you have an account?. Log In</Link>
+                      <Link to="/auth/login">Do you have an account?. Log In</Link>
                   </Grid>
                 </CardContent>
               </Card>

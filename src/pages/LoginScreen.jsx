@@ -100,7 +100,7 @@ const { email, password} = formValues;
                 <hr />
                     <GoogleButton onClick={hadleGoogleLogin} style={{ width: '100%' }} />
                 <Grid item style={{ margin: '20px 0', textAlign: 'center'}}>
-                    <Link to="/register">If you do not have an account. Register</Link>
+                    <Link to="/auth/register">If you do not have an account. Register</Link>
                 </Grid>
               </CardContent>
             </Card>
